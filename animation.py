@@ -1,5 +1,4 @@
-# إعدادات الرندر
-try:
+
     scene.render.engine = "BLENDER_EEVEE_NEXT"
 except TypeError:
     scene.render.engine = "BLENDER_EEVEE"
